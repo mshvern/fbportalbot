@@ -41,6 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'fb_bot',
     'django_extensions',
+    'django_crontab',
+]
+
+CRONJOBS = [
+    ('*/1 * * * *', 'msgbot.cron_db.timed_job', '>> /tmp/crontab.log'),
 ]
 
 MIDDLEWARE = [
