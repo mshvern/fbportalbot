@@ -1,0 +1,71 @@
+.pyc
+*.log
+# User-specific stuff
+msgbot/.idea/**/workspace.xml
+msgbot/.idea/**/tasks.xml
+msgbot/.idea/**/dictionaries
+msgbot/.idea/**/shelf
+msgbot/.idea/codeStyles/codeStyleConfig.xml
+msgbot/.idea/dWS.iml
+msgbot/.idea/inspectionProfiles/Project_Default.xml
+msgbot/.idea/misc.xml
+msgbot/.idea/modules.xml
+msgbot/.idea/vcs.xml
+msgbot/.idea/inspectionProfiles/Project_Default.xml
+msgbot/.idea/misc.xml
+msgbot/.idea/modules.xml
+msgbot/.idea/msgbot.iml
+msgbot/.idea/workspace.xml
+msgbot/db.sqlite3
+.idea/facebook.iml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+msgbot/fb_bot/parser/portal_const.py
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+__pycache__/
+__pycache__/*
