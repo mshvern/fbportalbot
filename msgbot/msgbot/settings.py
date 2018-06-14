@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 ]
 
 CRONJOBS = [
-    ('*/1 * * * *', 'msgbot.cron_db.timed_job', '>> /tmp/crontab.log'),
+    ('*/5 * * * *', 'msgbot.cron_db.timed_job', '>> /tmp/crontab.log'),
 ]
 
 MIDDLEWARE = [
